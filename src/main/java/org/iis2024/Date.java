@@ -88,4 +88,6 @@ public class Date {
   public boolean isLeapYear() {
     return (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
   }
+  // Variable added by collaborator
+  private String format = "dd/MM/yyyy";
 }
